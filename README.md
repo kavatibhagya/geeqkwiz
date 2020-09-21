@@ -4,3 +4,4 @@ This is a technical quiz app which has different categories to select and presen
 
 #URL
 
+https://geeqkwiz.web.app/
