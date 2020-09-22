@@ -1,25 +1,25 @@
 {
   "topics": [
     {
-      "name": "html",
+      "id": "html",
       "title": "HTML5",
       "description": "",
       "icon": ""
     },
     {
-      "name": "javascript",
+      "id": "javascript",
       "title": "JavaScript",
       "description": "",
       "icon": ""
     },
     {
-      "name": "css",
+      "id": "css",
       "title": "CSS3",
       "description": "",
       "icon": ""
     },
     {
-      "name": "react",
+      "id": "react",
       "title": "ReactJS",
       "description": "",
       "icon": ""

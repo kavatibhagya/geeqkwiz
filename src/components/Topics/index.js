@@ -18,7 +18,7 @@ const Topics = () => {
       {
         topics.map((topic) => (
           <Col lg={12} xs={24} md={12}>
-            <Card className="topic-card"><Button type="primary" size="large">{topic.title}</Button></Card>
+            <Card className="topic-card" key={topic.id}><Button type="primary" size="large">{topic.title}</Button></Card>
           </Col>
         ))
       }

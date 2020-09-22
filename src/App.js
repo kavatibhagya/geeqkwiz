@@ -21,6 +21,7 @@ function App() {
         <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
         <Switch>
         <Route path="/" exact={true} component={Home} />
+        
         <Route path="/topics"  component={Topics} />
         <Route path="/aboutus" component={About} />
       </Switch>
