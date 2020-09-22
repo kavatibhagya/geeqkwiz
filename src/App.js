@@ -25,7 +25,7 @@ function App() {
         <Route path="/aboutus" component={About} />
       </Switch>
       </Content>
-      <Footer style={{ textAlign: 'center' }}>All rights reserved @geeqkwiz 2020</Footer>
+      <Footer style={{ textAlign: 'center' }}>All rights reserved geeqkwiz@2020</Footer>
       </Layout>
     </div>
   );

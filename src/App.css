@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(240, 242, 245);
+}
+
 .logo {
   width: 120px;
   height: 31px;
@@ -11,9 +15,12 @@
 [data-theme="dark"] .site-layout .site-layout-background {
   background: #141414;
 }
-.topic {
-  color: white;
-  background-color: #1890ff;
-  min-width: 200px;
-  max-width: 200px;
+.main-card {
+  max-width: 90%;
+  margin: 50px auto;
+  min-width: 600px;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

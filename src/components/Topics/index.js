@@ -1,19 +1,29 @@
-import React from 'react';
-import { Row, Col, Button } from 'antd';
+import React, { useState, useEffect } from 'react';
+import '../../App.css';
+import './style.css';
+import { Row, Col, Card } from 'antd';
+
+import { topics as topicsData } from '../../data/topics.json';
 
 const Topics = () => {
-  return(
-  <div className="site-layout-background" style={{ padding: 24, minHeight: 380 }}>
-    <Row gutter={[16, 16]}>
-      <Col span={6}> <Button type="primary">HTML5</Button> </Col>
-      <Col span={6}> <Button type="primary">JavaScript</Button>  </Col>
-    </Row>
-    <Row gutter={[16, 16]}>
-      <Col span={6}> <Button type="primary">React</Button> </Col>
-      <Col span={6}> <Button type="primary">CSS3</Button> </Col>
-    </Row>
-  </div>
+  const [topics, setTopics] = useState([]);
 
+  useEffect(() => {
+    setTopics([...topicsData]);
+  }, []);
+
+  return(
+  <Card className="main-card">
+    <Row gutter={[48, 48]}>
+      {
+        topics.map((topic) => (
+          <Col lg={12} xs={24} md={12}>
+            <Card className="topic-card">{topic.title}</Card>
+          </Col>
+        ))
+      }
+      </Row>
+  </Card>
 );
 }
  export default Topics;

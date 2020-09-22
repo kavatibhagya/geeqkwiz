@@ -1,0 +1,9 @@
+.topic-card {
+  min-width: 150px;
+  min-height: 150px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1890ff;
+}
