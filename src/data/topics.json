@@ -1,0 +1,28 @@
+{
+  "types": [
+    {
+      "name": "html",
+      "title": "HTML5",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "javascript",
+      "title": "JavaScript",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "css",
+      "title": "CSS3",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "react",
+      "title": "ReactJS",
+      "description": "",
+      "icon": ""
+    }
+  ]
+}

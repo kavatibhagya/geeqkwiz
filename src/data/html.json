@@ -1,0 +1,85 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "What does HTML stands for?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "Hyper Tool Markup Language",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "Hyper Text Markup Language",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "High Text Machine Language",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "Hyper Links and Markup Language",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Correct HTML tag for the largest heading is",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "<head>",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "<header>",
+          "hasCode": true
+        },
+        {
+          "id": 3,
+          "description": "<h6>",
+          "hasCode": true
+        },
+        {
+          "id": 4,
+          "description": "<h1>",
+          "hasCode": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "How is document type initialized in HTML5?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "</DOCTYPE>",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "</DOCTYPE HTML>",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "<!DOCTYPE HTML>",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "</DOCTYPE html>",
+          "hasCode": false
+        }
+      ]
+    }
+  ]
+}
