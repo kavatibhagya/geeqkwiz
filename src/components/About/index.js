@@ -1,10 +1,11 @@
 import React from 'react';
+import '../../App.css';
 import { Card } from 'antd';
 
 const About = () =>{
   return (
-    <Card>
-      <h1>This is about Kwizz App.</h1>
+    <Card className="main-card">
+      <h1 className="text-center">About GeeqKwiz app</h1>
     </Card>
   );
 }

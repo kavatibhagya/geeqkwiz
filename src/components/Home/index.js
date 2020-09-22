@@ -7,7 +7,8 @@ const Home = () => {
 
   return (
    <Card className="main-card">
-     <h1>Welcome Home</h1> 
+     <h1 className="text-center">GeeqKwiz</h1>
+     <h4>Welcome to Front End Quiz App</h4> 
    </Card>
   
   );

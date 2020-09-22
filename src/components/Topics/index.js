@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import './style.css';
-import { Row, Col, Card } from 'antd';
+import { Row, Col, Card, Button } from 'antd';
 
 import { topics as topicsData } from '../../data/topics.json';
 
@@ -18,7 +18,7 @@ const Topics = () => {
       {
         topics.map((topic) => (
           <Col lg={12} xs={24} md={12}>
-            <Card className="topic-card">{topic.title}</Card>
+            <Card className="topic-card"><Button type="primary" size="large">{topic.title}</Button></Card>
           </Col>
         ))
       }
