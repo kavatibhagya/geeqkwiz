@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import { useParams } from 'react-router-dom';
-import { Row, Col, Card, Radio, Button } from 'antd';
+import { Row, Col, Card, Button } from 'antd';
+import Question from '../Question'
 
 const Test = () => {
   const { id } = useParams();
@@ -14,36 +15,17 @@ const Test = () => {
       let { data } = await import(`../../data/${id}.json`);
       
       setQuestions([...data]);
-      setQuestion(questions[questionId]);
+      setQuestion({ ...data[questionId - 1] });
     }
 
     getData();
-  }, [id, questionId, questions, setQuestion, setQuestions]);
+  }, []);
 
   return (
     <Card className="main-card">
-      <Row>
-        <Col>{questionId}. {question.question}</Col>
-      </Row>
-
-      <Row>
-        <Col>
-          <Radio.Group>
-            {
-              question.choices.map((choice) => (
-                <Row>
-                  <Col>
-                    <Radio value={id}>
-                      {choice.description}
-                    </Radio>
-                  </Col>
-                </Row>
-              ))
-            }
-          </Radio.Group>
-        </Col>
-      </Row>
-
+      {
+        question ? <Question question={question}></Question> : ''
+      }
       <Row>
         <Col>
             <Button>Next</Button>
