@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import Home from './components/Home';
 import Topics from './components/Topics';
 import About from './components/About';
+import Test from './components/Test'
 
 
 import { Layout } from 'antd';
@@ -22,7 +23,8 @@ function App() {
         <Switch>
           <Route path="/" exact={true} component={Home} />
           <Route path="/topics"  component={Topics} />
-          <Route path="/aboutus" component={About} />
+          <Route path="/about" component={About} />
+          <Route path="/test/:id" component={Test} />
       </Switch>
       </Content>
       <Footer style={{ textAlign: 'center' }}>All rights reserved geeqkwiz@2020</Footer>
