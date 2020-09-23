@@ -20,10 +20,9 @@ function App() {
         <Nav></Nav>
         <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
         <Switch>
-        <Route path="/" exact={true} component={Home} />
-        
-        <Route path="/topics"  component={Topics} />
-        <Route path="/aboutus" component={About} />
+          <Route path="/" exact={true} component={Home} />
+          <Route path="/topics"  component={Topics} />
+          <Route path="/aboutus" component={About} />
       </Switch>
       </Content>
       <Footer style={{ textAlign: 'center' }}>All rights reserved geeqkwiz@2020</Footer>
