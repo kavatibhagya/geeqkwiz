@@ -4,7 +4,6 @@ import 'antd/dist/antd.css';
 import './App.css';
 import Nav from './components/Nav';
 import Home from './components/Home';
-import Topics from './components/Topics';
 import About from './components/About';
 import Test from './components/Test'
 
@@ -22,7 +21,6 @@ function App() {
         <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
         <Switch>
           <Route path="/" exact={true} component={Home} />
-          <Route path="/topics"  component={Topics} />
           <Route path="/about" component={About} />
           <Route path="/test/:id" component={Test} />
       </Switch>
