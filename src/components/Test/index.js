@@ -26,9 +26,9 @@ const Test = () => {
       {
         question ? <Question question={question}></Question> : ''
       }
-      <Row>
-        <Col>
-            <Button>Next</Button>
+      <Row justify="center">
+        <Col span={16}>
+            <Button type="primary" size="large" block>Next</Button>
         </Col>
       </Row>
     </Card>
