@@ -3,19 +3,14 @@ import React from 'react';
 import { Row, Col, Radio, Typography, Divider } from 'antd';
 const { Title } = Typography;
 
-const Question = ({ question }) => {
-  
-  const onChange = e => {
-    console.log(e.target.value);
-  }
-
+const Question = ({ question, selectAnswer }) => {
   return (
     <>
     <Title>{question.id}. {question.question}</Title>
     <Divider orientation="center"></Divider>
       <Row>
         <Col>
-          <Radio.Group onChange={onChange}>
+          <Radio.Group onChange={selectAnswer}>
             {
               question.choices.map((choice) => (
                 <Title level={4} key={choice.id}>
