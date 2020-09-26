@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../../App.css';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { Row, Col, Card, Button, Divider, Typography, Form } from 'antd';
 import Question from '../Question';
 import Results from '../Results';
@@ -8,7 +8,6 @@ const { Title, Text } = Typography;
 
 const Test = () => {
   const { id } = useParams();
-  const history = useHistory();
   const [questionId, setQuestionId] = useState(1);
   const [userAnswerId, setUserAnswerId] = useState(0);
   const [questions, setQuestions] = useState([]);
@@ -68,7 +67,7 @@ const Test = () => {
           valid ? '' : <Row justify="left"><Col><Text type="danger">Please choose the option</Text></Col></Row> 
         }
         {
-          results ? <Results topic={id} data={questions}></Results> : <div>
+          results ? <Results topic={id} questions={questions}></Results> : <div>
             <Row justify="center">
               <Col span={16}>
                 <Form.Item>
