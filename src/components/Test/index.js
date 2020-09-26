@@ -3,7 +3,7 @@ import '../../App.css';
 import { useParams, useHistory } from 'react-router-dom';
 import { Row, Col, Card, Button, Divider, Typography, Form } from 'antd';
 import Question from '../Question'
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 const Test = () => {
   const { id } = useParams();
@@ -12,6 +12,7 @@ const Test = () => {
   const [userAnswerId, setUserAnswerId] = useState(0);
   const [questions, setQuestions] = useState([]);
   const [question, setQuestion] = useState();
+  const [valid, setValid] = useState(true);
 
   useEffect(() => {
     const getData = async () => {
@@ -30,16 +31,22 @@ const Test = () => {
 
   const onSubmit = e => {
     if(!userAnswerId) {
+      setValid(false);
       return;
     }
 
+    setValid(true);
     setQuestion({...question, userAnswerId });
+    setQuestions([...questions.splice(questionId - 1, 1, question)]);
 
     if(questionId === questions.length) {
       history.push("/results");
     } else {
-      setQuestionId(questionId++);
-      setQuestion({...questions[questionId - 1]});
+      setQuestionId(questionId + 1);
+      setQuestion({...questions[questionId]});
+      console.log(questionId);
+      console.log(questions);
+      console.log(questions[questionId]);
     }
   }
 
@@ -50,6 +57,9 @@ const Test = () => {
           question ? <Question question={question} selectAnswer={selectAnswer}></Question> : ''
         }
 
+        {
+          valid ? '' : <Row justify="left"><Col><Text type="danger">Please choose the option</Text></Col></Row> 
+        }
         <Row justify="center">
           <Col span={16}>
             <Form.Item>
