@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../App.css';
 import './style.css';
-import { Card, Typography } from 'antd';
+import { Link } from 'react-router-dom';
+import { Card, Typography, Button } from 'antd';
 const { Title } = Typography;
 
 const Results = ({ topic, data }) => {
@@ -21,9 +22,8 @@ const Results = ({ topic, data }) => {
         <Button type="primary" size="large" block>Review Results</Button>
       </Link>
     </Card>
-    <Topics/>
     </>
   );
 };
 
-export default Home;
+export default Results;

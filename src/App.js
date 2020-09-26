@@ -5,7 +5,8 @@ import './App.css';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
-import Test from './components/Test'
+import Test from './components/Test';
+import Results from './components/Results';
 
 
 import { Layout } from 'antd';
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" exact={true} component={Home} />
           <Route path="/about" component={About} />
           <Route path="/test/:id" component={Test} />
+          <Route path="/results" component={Results} />
       </Switch>
       </Content>
       <Footer style={{ textAlign: 'center' }}>All rights reserved geeqkwiz@2020</Footer>

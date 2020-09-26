@@ -18,8 +18,8 @@ const Topics = () => {
     <Row gutter={[48, 48]}>
       {
         topics.map((topic) => (
-          <Col lg={12} xs={24} md={12}>
-            <Card className="topic-card" key={topic.id}>
+          <Col lg={12} xs={24} md={12} key={topic.id}>
+            <Card className="topic-card">
               <Link to={`/test/${topic.id}`}>
                 <Button type="primary" size="large">{topic.title}</Button>
                 </Link>

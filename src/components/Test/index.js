@@ -27,6 +27,7 @@ const Test = () => {
 
   const selectAnswer = e => {
     setUserAnswerId(e.target.value);
+    setValid(true);
   }
 
   const onSubmit = e => {
@@ -35,18 +36,21 @@ const Test = () => {
       return;
     }
 
-    setValid(true);
-    setQuestion({...question, userAnswerId });
-    setQuestions([...questions.splice(questionId - 1, 1, question)]);
+    const updatedQuestion = {
+      ...question,
+      userAnswerId
+    };
+    const quesData = [...questions];
+
+    setQuestion({ ...updatedQuestion });
+    quesData[questionId - 1] = updatedQuestion;
+    setQuestions([...quesData]);
 
     if(questionId === questions.length) {
       history.push("/results");
     } else {
       setQuestionId(questionId + 1);
       setQuestion({...questions[questionId]});
-      console.log(questionId);
-      console.log(questions);
-      console.log(questions[questionId]);
     }
   }
 
