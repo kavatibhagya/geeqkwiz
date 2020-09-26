@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import '../../App.css';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import { Row, Col, Card, Button, Divider, Typography, Form } from 'antd';
 import Question from '../Question'
 const { Title } = Typography;
 
 const Test = () => {
   const { id } = useParams();
+  const history = useHistory();
   const [questionId, setQuestionId] = useState(1);
   const [userAnswerId, setUserAnswerId] = useState(0);
   const [questions, setQuestions] = useState([]);
@@ -33,8 +34,13 @@ const Test = () => {
     }
 
     setQuestion({...question, userAnswerId });
-    setQuestionId(questionId++);
-    setQuestion({...questions[questionId - 1]});
+
+    if(questionId === questions.length) {
+      history.push("/results");
+    } else {
+      setQuestionId(questionId++);
+      setQuestion({...questions[questionId - 1]});
+    }
   }
 
   return (
