@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import { useParams, useHistory } from 'react-router-dom';
 import { Row, Col, Card, Button, Divider, Typography, Form } from 'antd';
-import Question from '../Question'
+import Question from '../Question';
+import Results from '../Results';
 const { Title, Text } = Typography;
 
 const Test = () => {
@@ -13,6 +14,7 @@ const Test = () => {
   const [questions, setQuestions] = useState([]);
   const [question, setQuestion] = useState();
   const [valid, setValid] = useState(true);
+  const [results, setResults] = useState(false);
 
   useEffect(() => {
     const getData = async () => {
@@ -47,7 +49,8 @@ const Test = () => {
     setQuestions([...quesData]);
 
     if(questionId === questions.length) {
-      history.push("/results");
+      setQuestion(null);
+      setResults(true);
     } else {
       setQuestionId(questionId + 1);
       setQuestion({...questions[questionId]});
@@ -64,21 +67,25 @@ const Test = () => {
         {
           valid ? '' : <Row justify="left"><Col><Text type="danger">Please choose the option</Text></Col></Row> 
         }
-        <Row justify="center">
-          <Col span={16}>
-            <Form.Item>
-              <Button type="primary" htmlType="submit" size="large" block>
-                {questionId === questions.length ? 'Finish' : 'Next'}
-              </Button>
-            </Form.Item>
-          </Col>
-        </Row>
-        <Divider orientation="center"></Divider>
-        <Row justify="left">
-          <Col span={16}>
-            <Title level={5}>Number of questions: {questionId}/{questions.length}</Title>
-          </Col>
-        </Row>
+        {
+          results ? <Results topic={id} data={questions}></Results> : <div>
+            <Row justify="center">
+              <Col span={16}>
+                <Form.Item>
+                  <Button type="primary" htmlType="submit" size="large" block>
+                    {questionId === questions.length ? 'Finish' : 'Next'}
+                  </Button>
+                </Form.Item>
+              </Col>
+            </Row>
+            <Divider orientation="center"></Divider>
+            <Row justify="left">
+              <Col span={16}>
+                <Title level={5}>Number of questions: {questionId}/{questions.length}</Title>
+              </Col>
+            </Row>   
+          </div>
+        }
       </Card>
     </Form>
   )
