@@ -3,7 +3,7 @@
     {
       "id": 1,
       "question": "What does HTML stands for?",
-      "answerId": 2,
+      "answerId": 1,
       "choices": [
         {
           "id": 1,
@@ -30,7 +30,7 @@
     {
       "id": 2,
       "question": "Correct HTML tag for the largest heading is",
-      "answerId": 2,
+      "answerId": 3,
       "choices": [
         {
           "id": 1,
