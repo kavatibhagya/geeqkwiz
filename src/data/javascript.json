@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "Which built-in method returns the calling string value converted to upper case?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "toUpper()",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "toUpperCase()",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "changeCase(case)",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "None of the above",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which of the following function of Array object removes the first element from an array and returns that element?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "reverse()",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "someshift()",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "slice()",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "shift()",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the JavaScript syntax for printing values in Console?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "print(5);",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "console.log(5);",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "console.print(5);",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "print.console(5);",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How to initialize an array in JavaScript?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "var Geeks= “Geek1”, “Geek2”, “Geek3”;",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "var Geeks=(1:Geek1, 2:Geek2, 3:Geek3);",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "var Geeks=(1=Geek1, 2=Geek2, 3=Geek3);",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "var Geeks=[“Geek1”, “Geek2”, “Geek3”];",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the method in JavaScript used to remove the whitespace at the beginning and end of any string ?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "strip()",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "stripped()",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "trim()",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "trimmed()",
+          "hasCode": false
+        }
+      ]
+    }
+  ]
+}
