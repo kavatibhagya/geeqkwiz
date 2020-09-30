@@ -111,7 +111,7 @@
     {
       "id": 5,
       "question": "What is the method in JavaScript used to remove the whitespace at the beginning and end of any string ?",
-      "answerId": 4,
+      "answerId": 3,
       "choices": [
         {
           "id": 1,
@@ -131,6 +131,33 @@
         {
           "id": 4,
           "description": "trimmed()",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Which choice is not a unary operator?",
+      "answerId": 1,
+      "choices": [
+        {
+          "id": 1,
+          "description": "instanceof",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "typeof",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "delete",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "void",
           "hasCode": false
         }
       ]

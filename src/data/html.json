@@ -80,6 +80,87 @@
           "hasCode": false
         }
       ]
+    },
+    {
+      "id": 4,
+      "question": "What is the correct HTML for adding a background color?",
+      "answerId": 3,
+      "choices": [
+        {
+          "id": 1,
+          "description": "<background>red</background>",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "<body bg='red'>",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "<body style='background-color: red'>",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "<body style='background: red'>",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "How can you open the link in a new window?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "target='_new'",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "target='_window'",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "target='_self",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "target='_blank",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "How to make a text italic?",
+      "answerId": 1,
+      "choices": [
+        {
+          "id": 1,
+          "description": "<i>Some text.</i>",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "<em>Some text.</em>",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "<italic>Some text.</italic>",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "<strong>Some text.</strong>",
+          "hasCode": false
+        }
+      ]
     }
   ]
 }
