@@ -25,7 +25,7 @@ const Results = ({ topic, questions }) => {
       </Row>
       <Row justify="center" gutter={[16, 16]}>
         <Col span={24}>
-          <Link>
+          <Link to="/">
             <Button type="primary" size="large" block>Review Questions</Button>
           </Link>
         </Col>

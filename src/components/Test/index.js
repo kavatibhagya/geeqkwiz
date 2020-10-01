@@ -46,6 +46,7 @@ const Test = () => {
     setQuestion({ ...updatedQuestion });
     quesData[questionId - 1] = updatedQuestion;
     setQuestions([...quesData]);
+    setUserAnswerId(0);
 
     if(questionId === questions.length) {
       setQuestion(null);
@@ -60,7 +61,7 @@ const Test = () => {
     <Form onFinish={onSubmit}>
       <Card className="main-card">
         {
-          question ? <Question question={question} selectAnswer={selectAnswer}></Question> : ''
+          question ? <Question question={question} selectAnswer={selectAnswer} userAnswerId={userAnswerId}></Question> : ''
         }
 
         {

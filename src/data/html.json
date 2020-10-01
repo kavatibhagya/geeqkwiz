@@ -3,7 +3,7 @@
     {
       "id": 1,
       "question": "What does HTML stands for?",
-      "answerId": 1,
+      "answerId": 2,
       "choices": [
         {
           "id": 1,
@@ -30,7 +30,7 @@
     {
       "id": 2,
       "question": "Correct HTML tag for the largest heading is",
-      "answerId": 3,
+      "answerId": 4,
       "choices": [
         {
           "id": 1,
@@ -57,7 +57,7 @@
     {
       "id": 3,
       "question": "How is document type initialized in HTML5?",
-      "answerId": 2,
+      "answerId": 3,
       "choices": [
         {
           "id": 1,
@@ -125,12 +125,12 @@
         },
         {
           "id": 3,
-          "description": "target='_self",
+          "description": "target='_self'",
           "hasCode": false
         },
         {
           "id": 4,
-          "description": "target='_blank",
+          "description": "target='_blank'",
           "hasCode": false
         }
       ]
