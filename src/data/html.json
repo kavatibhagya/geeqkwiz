@@ -160,6 +160,115 @@
           "description": "<strong>Some text.</strong>",
           "hasCode": false
         }
+        
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which of the following HTML Elements is used for making any text bold ?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "<p>",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "<i>",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "<li>",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "<b>",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "How many heading tags are there in HTML5?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "2",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "4",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "5",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "6",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is the correct way of creating an hyperlink in HTML?",
+      "answerId": 3,
+      "choices": [
+        {
+          "id": 1,
+          "description": " <a>www.geeksforgeeks.org <Geeksforgeeks /a>",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "<a href=“www.geeksforgeeks.org” Geeksforgeeks /a>",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "<a href=“www.geeksforgeeks.org”>Geeksforgeeks</a>",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "<a link=“www.geeksforgeeks.org” Geeksforgeeks> </a>",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": " What is the correct HTML for inserting a background image?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "<background img='background.gif'>",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "<body style='background-image:url(background.gif)'>",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "<body background=”background.gif”>",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "<background.gif'>",
+          "hasCode": false
+        }
       ]
     }
   ]
