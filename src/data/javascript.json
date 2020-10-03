@@ -161,6 +161,114 @@
           "hasCode": false
         }
       ]
+    },
+    {
+      "id": 7,
+      "question": "What is the correct JavaScript syntax to change the content of the HTML element below? <p id='demo'>This is a paragraph.</p>      ",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "document.getElementByName('p').innerHTML = 'Hello World!';",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "document.getElementById('demo').innerHTML = 'Hello World!';",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "#demo.innerHTML = 'Hello World!';",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "document.getElement('p').innerHTML = 'Hello World!';",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "How do you round the number 8.75, to the nearest integer?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "round(8.75)",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "Number.round(8.75)",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "Math.number(8.75)",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "Math.round(8.75)",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "How do you find the number with the highest value of 6,9,7",
+      "answerId": 3,
+      "choices": [
+        {
+          "id": 1,
+          "description": "Math.ceil(6,9,7)",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "Math.high(6,9,7)",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "Math.max(6,9,7)",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "Math.top(6,9,7)",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which of the following function of Number object formats a number with a specific number of digits to the right of the decimal?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "toExponential()",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "toFixed()",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "toPrecision()",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "toLocaleString()",
+          "hasCode": false
+        }
+      ]
     }
   ]
 }
