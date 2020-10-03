@@ -23,6 +23,7 @@ const Results = ({ topic, questions }) => {
           </Link>
         </Col>
       </Row>
+      <h3>Temp value</h3>
     </>
   );
 };
