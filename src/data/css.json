@@ -1,0 +1,275 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "If we want define style for an unique element, then which css selector will we use ?",
+      "answerId": 3,
+      "choices": [
+        {
+          "id": 1,
+          "description": "class",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "name",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "id",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "attribute",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "By default Hyperlinks are displayed with an underline. How do you remove the underline from all hyperlinks by using CSS code ?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "a {text: no-underline;}",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "a {text-decoration:none;}",
+          "hasCode": true
+        },
+        {
+          "id": 3,
+          "description": "a {text-style: no-underline;}",
+          "hasCode": true
+        },
+        {
+          "id": 4,
+          "description": "a {text-decoration: no-underline;}",
+          "hasCode": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the correct HTML for referring to an external style sheet?",
+      "answerId": 1,
+      "choices": [
+        {
+          "id": 1,
+          "description": "<link rel='stylesheet' type='text/css' href='style.css'>",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "<link rel='stylesheet' type='text/css' src='style.css'>",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "<style rel='stylesheet' type='text/css' href='style.css'>",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "<style rel='stylesheet' type='text/css' src='style.css'>",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which HTML attribute is used to define inline styles?",
+      "answerId": 3,
+      "choices": [
+        {
+          "id": 1,
+          "description": "styles",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "class",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "style",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "font",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which CSS property controls the text size?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "font-style",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "text-size",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "text-style",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "font-size",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What is the correct CSS syntax for making all the <p> elements bold?",
+      "answerId": 3,
+      "choices": [
+        {
+          "id": 1,
+          "description": "<p style='font-size:bold;'>",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "p {text-size:bold;}",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "p {font-weight:bold;}",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "<p style='text-size:bold;'>",
+          "hasCode": false
+        }
+        
+      ]
+    },
+    {
+      "id": 7,
+      "question": "How do you make each word in a text start with a capital letter?",
+      "answerId": 1,
+      "choices": [
+        {
+          "id": 1,
+          "description": "text-transform:capitalize",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "transform:capitalize",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "text-style:capitalize",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "You can't do that with CSS",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Select the property that is used to change the list style to show roman numerals instead of normal numbers?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "list-bullet-type:roman-numerals;",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "list-style-type:upper-roman;",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "list-type:roman;",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "list-style:roman;",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "How do you insert padding so that it is: 10 pixels at the top, 15 pixels at the bottom, 5 pixels at the right, 10 pixels to the left?",
+      "answerId": 3,
+      "choices": [
+        {
+          "id": 1,
+          "description": "padding='10px 15px 5px 10px'",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "padding='10px 15px 10px 5px'",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "padding='10px 5px 15px 10px'",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "padding='5px 15px 5px 10px'",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which CSS syntax is commonly used to center a website horizontally?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "margin: 0 auto;",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "margin: center;",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "site-align: center;",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "margin: auto 0;",
+          "hasCode": false
+        }
+      ]
+    }
+  ]
+}
