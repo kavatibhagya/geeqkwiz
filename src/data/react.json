@@ -1,0 +1,275 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "In React what is used to pass data to a component from outside?",
+      "answerId": 3,
+      "choices": [
+        {
+          "id": 1,
+          "description": "setState",
+          "hasCode": false
+        },
+        {
+          "id": 2,
+          "description": "render with arguments",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "props",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "PropTypes",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Keys are given to a list of elements in react. These keys should be ___?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "Do not require to be unique",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "Unique among the sibings only",
+          "hasCode": true
+        },
+        {
+          "id": 3,
+          "description": "Unique in the DOM",
+          "hasCode": true
+        },
+        {
+          "id": 4,
+          "description": "All of the above",
+          "hasCode": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which method in a React Component should you override to stop the component from updating?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "willComponentUpdate",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "componentDidMount",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "componentDidUpdate",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "shouldComponentUpdate",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which method in a React Component is called after the component is rendered for the first time?",
+      "answerId": 1,
+      "choices": [
+        {
+          "id": 1,
+          "description": "componentDidMount",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "componentDidUpdate",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "componentMounted",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "componentUpdated",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is correct syntax for a button click event handler, foo?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "<button onclick={this.foo()}>",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "<button onClick={this.foo}>",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "<button onclick={this.foo}>",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "<button onClick={this.foo()}",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What happens when you call setState() inside render() method?",
+      "answerId": 3,
+      "choices": [
+        {
+          "id": 1,
+          "description": "Duplicate key error",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "Repetitive output appears on the screen",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "Stack overflow error",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "Nothing happens. Life goes on!",
+          "hasCode": false
+        }
+        
+      ]
+    },
+    {
+      "id": 7,
+      "question": "How do you write an inline style specifying the font-size:12px and color:red; in JSX?",
+      "answerId": 1,
+      "choices": [
+        {
+          "id": 1,
+          "description": "style={fontSize:'12px',color:'red'}",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "style={{fontSize:'12px',color:'red'}}e",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "style={{font-size:12,color:'red'}}",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "style={{font-size:12px,color:'red'}}S",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which method is not part of ReactDOM?",
+      "answerId": 3,
+      "choices": [
+        {
+          "id": 1,
+          "description": "ReactDOM.hydrate()",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "ReactDOM.createPortal()",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "ReactDOM.destroy()",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "ReactDOM.findDOMNode()",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which of the following method define default values for properties using props?",
+      "answerId": 4,
+      "choices": [
+        {
+          "id": 1,
+          "description": "getWillState",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "getInitialState",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "getPropsValue",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "getDefaultProps",
+          "hasCode": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is a controlled input element?",
+      "answerId": 2,
+      "choices": [
+        {
+          "id": 1,
+          "description": "An input element with the controlled flag",
+          "hasCode": true
+        },
+        {
+          "id": 2,
+          "description": "An input element whose value is being controlled by a component’s state",
+          "hasCode": false
+        },
+        {
+          "id": 3,
+          "description": "An input element that can only accept a list of characters",
+          "hasCode": false
+        },
+        {
+          "id": 4,
+          "description": "An input element that is controlled by the value of another input element",
+          "hasCode": false
+        }
+      ]
+    }
+  ]
+}
