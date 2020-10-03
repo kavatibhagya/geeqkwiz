@@ -23,13 +23,6 @@ const Results = ({ topic, questions }) => {
           </Link>
         </Col>
       </Row>
-      <Row justify="center" gutter={[16, 16]}>
-        <Col span={24}>
-          <Link to="/">
-            <Button type="primary" size="large" block>Review Questions</Button>
-          </Link>
-        </Col>
-      </Row>
     </>
   );
 };
